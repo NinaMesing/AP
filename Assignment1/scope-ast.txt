@@ -1,0 +1,5 @@
+Prog [
+  VarDecl "x" (Just (Number 42)),
+  VarDecl "y" (Just (Compr ("x", String "abc", Nothing) (Var "x"))),
+  VarDecl "z" (Just (Var "x"))
+]
